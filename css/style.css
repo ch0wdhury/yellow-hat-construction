@@ -1,0 +1,259 @@
+html, body {
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+	color: #282923;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/* Header Section Starts */
+header {
+	color: #282923;
+}
+.fixed-top {
+	background-color: #F4F5F6;
+	padding: 0px 80px;
+}
+.custom_brand img {
+	width: 50%;
+}
+.custom_navbar ul li {
+	margin-left: 10px;
+	border: none;
+}
+.nav-link.active {
+    color: #FFCD45!important;
+}
+.custom_navbar ul li a {
+	font-weight: 700;
+	color: #282923!important;
+	transition: .5s ease;
+}
+.custom_navbar ul li a:hover {
+	color: #FFCD45!important;
+}
+.nav_account_btn {
+	margin-left: 50px;
+}
+.nav_account_btn li a {
+	font-weight: 700;
+	border: 1px solid #282923;
+	border-radius: 20px;
+	padding: 2px 22px!important;
+	transition: .5s ease;
+}
+.nav_account_btn li a:hover {
+	background-color: #000;
+}
+
+/* Header Section Ends */
+/* Banner Section Starts */
+.banner {
+	padding: 170px 0 120px 0;
+	background-image: url(../images/construction-banner-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFF;
+}
+.banner_text {
+	background-color: rgba(0,0,0, .7);
+	padding: 60px 40px 60px 40px;
+	border-radius: 5px;
+}
+.banner_text h1 {
+	font-weight: 700;
+	font-size: 40px;
+	color: #FFCD45;
+}
+.banner_text p {
+	width: 90%;
+	font-weight: inherit;
+	margin: 30px 0;
+}
+.banner_btn {
+	color: #FFF;
+	font-weight: 700;
+	border: 1px solid #FFF;
+	border-radius: 20px;
+	padding: 5px 25px!important;
+	transition: .5s ease;
+}
+.banner_btn:hover {
+	background-color: #000;
+	color: #FFCD45!important;
+}
+/* Banner Section Ends */
+/* Service Section Starts */
+#services {
+	padding: 100px 0;
+	background-color: #F4F5F6;
+}
+.common_title h1 {
+	font-weight: 700;
+	font-size: 30px;
+}
+.common_title p {
+	width: 60%;
+	margin: 20px auto;
+}
+.common_title hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    width: 350px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #FFCD45;
+    border-width: 3px 0 0 0;
+    border-radius: 20px;
+}
+.common_title hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #FFCD45;
+    border-width: 0 0 3px 0;
+    border-radius: 20px;
+}
+.service_content {
+	margin: 50px 0;
+}
+.service_content i {
+	color: #FFCD45;
+	font-size: 50px;
+}
+.service_content h4 {
+	font-weight: 700;
+}
+/* Service Section Ends */
+/* Parallax Image Height */
+.first_parallax {
+	height: 350px;
+}
+/* Parallax Image Height */
+/* Team Section Starts */
+#team {
+	padding: 100px 0;
+	background-color: #F4F5F6;
+}
+.team_content {
+	margin: 40px 0;
+}
+/* Team Section Ends */
+/* Features Section Starts */
+#feature {
+	padding: 100px 0;
+	background-color: #F4F5F6;
+}
+.feature_contents {
+	padding: 50px 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 30px auto;
+	margin-bottom: 20px;
+}
+.feature_contents i {
+	margin-left: 20px;
+	font-size: 50px;
+	color: #FFCD45;
+}
+.feature_contents h2 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.feature_contents p {
+	width: 70%;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+/* Features Section Ends */
+/* Get Started Section Starts Here */
+#started {
+	padding: 120px 0;
+	background-color: #FFCD45;
+}
+.for_dark_hr {
+	border-color: #000!important;
+}
+.for_dark_hr:before {
+	border-color: #000!important;
+}
+.common_title ul {
+	margin: 20px auto;
+}
+/* Get Started Section Ends Here */
+/* Clients Section Starts */
+#clients {
+	padding: 100px 0;
+	background-color: #FFF;
+}
+.owl-carousel {
+	margin-top: 50px;
+}
+.owl-carousel img {
+	width: 10%!important;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.testimonial_body {
+	font-style: italic;
+	padding-top: 10px;
+	width: 50%;
+	margin: 0 auto;
+}
+.client_name {
+	padding-top: 10px;
+	color: #025291;
+}
+/* Clients Section Ends */
+/* Contact Section Starts */
+#contact {
+	padding: 50px 0;
+}
+.contact_sitemap ul li a {
+	color: #282923!important;
+}
+.contact_social a i {
+	font-size: 20px;
+	color: #000;
+	transition: .5s ease;
+}
+.contact_social a i:hover {
+	color: #FFCD45!important;
+}
+#contact h5 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 0 20px 0;
+}
+/* Contact Section Ends */
+/* Footer Starts Here */
+footer {
+	background-color: #F4F5F6;
+	border-top: 1px solid #FFCD45;
+	padding: 10px;
+}
+footer img {
+	width: 10%;
+	padding-bottom: 10px;
+}
+/* Footer Ends Here */
